@@ -84,6 +84,10 @@ nav a{
 }
 
 /* Main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About section styles */
 .about{
@@ -99,5 +103,13 @@ nav a{
         font-weight: 700;
 }
 .about-description{
+    color: #757575;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
     color: #757575;
 }
